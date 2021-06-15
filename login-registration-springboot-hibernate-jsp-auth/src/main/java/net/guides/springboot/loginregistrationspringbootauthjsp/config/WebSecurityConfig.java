@@ -37,9 +37,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .logout()
                     .permitAll();
     }
+    //gi status
+    //git status
+
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder());
     }
 }
+//vjvcvbdkjclnsvkd
+//bfkvdflrtkntlrjg
+//wferhogivlknrgrlt
